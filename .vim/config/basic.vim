@@ -1,9 +1,9 @@
 set nocompatible
 filetype off
 syntax on
-set background=dark
-let g:solarized_termcolors=256
 colorscheme solarized
+set t_Co=256
+set background=dark
 let mapleader = "\<space>"
 set hidden
 set tabstop=4
@@ -42,6 +42,5 @@ map <S-Right> <C-w>l
 :command Wq wq
 :command W	w
 :command Q q
-:command X x
 " Clear Search
 nmap <silent> ,/ :nohlsearch<CR>

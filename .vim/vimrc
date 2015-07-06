@@ -12,6 +12,7 @@ Bundle 'https://github.com/Xuyuanp/nerdtree-git-plugin.git'
 Bundle 'https://github.com/scrooloose/nerdcommenter.git'
 Bundle 'https://github.com/Lokaltog/vim-powerline.git'
 Bundle 'https://github.com/tpope/vim-surround'
+Bundle 'https://github.com/Valloric/YouCompleteMe'
 
 call vundle#end()
 filetype plugin indent on
